@@ -626,4 +626,269 @@ body {
   text-align: center;
   margin-top: 1rem;
   color: #555;
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    padding: 0.4rem;
+  }
+  .nav {
+    flex-direction: row;
+    padding: 0.5rem;
+    gap: 1rem;
+  }
+  .nav .logo {
+    height: 5rem;
+  }
+  .nav .logo h1 {
+    font-size: 0.9rem;
+  }
+  .nav .tags {
+    gap: 1.5rem;
+    font-size: 1rem;
+    padding-right: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .nav .tags a:hover {
+    font-size: 1.1rem;
+  }
+  .nav button {
+    padding: 0.3rem 1.5rem;
+    font-size: 1rem;
+  }
+  .view-1 {
+    height: auto;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+  .view-1 .text {
+    width: 100%;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .view-1 .text h1 {
+    font-size: 3rem;
+  }
+  .view-1 .text h4 {
+    font-size: 1.4rem;
+  }
+  .view-1 .text p {
+    font-size: 0.95rem;
+  }
+  .view-1 .imge {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .view-1 .imge img {
+    width: 80%;
+    transform: none;
+  }
+  .scroll-strip {
+    font-size: 1.5rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+  }
+  .view-2 {
+    padding: 1rem;
+  }
+  .view-2 h1 {
+    font-size: 2rem;
+  }
+  .view-2 p {
+    font-size: 0.9rem;
+  }
+  .view-2 .cards {
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  .view-2 .cards .card {
+    width: 200px;
+    padding: 1rem;
+  }
+  .view-2 .cards .card img {
+    width: 180px;
+  }
+  .view-2 .beans {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+  }
+  .view-2 .beans .text1 {
+    padding-left: 0;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+  }
+  .view-2 .beans .text1 h1 {
+    font-size: 1.8rem;
+  }
+  .view-2 .beans .text1 button {
+    width: 80%;
+  }
+  .view-2 .beans .bean-img img {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  .week-products {
+    padding: 1rem;
+  }
+  .week-products h1 {
+    font-size: 2rem;
+  }
+  .week-products .cards {
+    gap: 2rem;
+    width: 100%;
+  }
+  .week-products .cards .card {
+    width: 180px;
+    height: auto;
+    padding: 1rem;
+  }
+  .week-products .cards .card img {
+    width: 160px;
+    padding-top: 1.5rem;
+  }
+  .view-3 {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+  }
+  .view-3 .imgp img {
+    max-width: 300px;
+  }
+  .view-3 .textp h1 {
+    font-size: 1.8rem;
+  }
+  .view-3 .textp p {
+    font-size: 0.9rem;
+  }
+  .view-3 .textp .containers1 .cont1,
+  .view-3 .textp .containers2 .cont1 {
+    max-width: 100%;
+  }
+  .footer {
+    padding: 2rem 1rem;
+  }
+  .footer .footer-container {
+    gap: 1.5rem;
+  }
+  .footer .footer-container .footer-col {
+    min-width: 150px;
+  }
+  .login-form {
+    margin: 4rem auto;
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+  .login-form h2 {
+    font-size: 1.5rem;
+  }
+  .login-form input,
+  .login-form button {
+    padding: 0.6rem;
+  }
+}
+@media (max-width: 480px) {
+  html,
+  body {
+    padding: 0.3rem;
+  }
+  .nav {
+    padding: 0.3rem;
+  }
+  .nav .logo {
+    height: 5rem;
+  }
+  .nav .logo h1 {
+    font-size: 0.8rem;
+  }
+  .nav .tags {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+  .nav .tags a:hover {
+    font-size: 1rem;
+  }
+  .nav button {
+    padding: 0.3rem 1rem;
+    font-size: 0.9rem;
+  }
+  .view-1 .text h1 {
+    font-size: 2rem;
+  }
+  .view-1 .text h4 {
+    font-size: 1.2rem;
+  }
+  .view-1 .text p {
+    font-size: 0.85rem;
+  }
+  .view-1 .text button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  .view-1 .imge img {
+    width: 90%;
+  }
+  .scroll-strip {
+    font-size: 1.2rem;
+    height: 2rem;
+  }
+  .view-2 h1 {
+    font-size: 1.8rem;
+  }
+  .view-2 .cards .card {
+    width: 100%;
+    max-width: 300px;
+  }
+  .view-2 .cards .card img {
+    width: 100%;
+  }
+  .view-2 .beans .text1 h1 {
+    font-size: 1.5rem;
+  }
+  .week-products h1 {
+    font-size: 1.8rem;
+  }
+  .week-products .cards .card {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+  }
+  .week-products .cards .card img {
+    width: 100%;
+  }
+  .view-3 .imgp img {
+    max-width: 250px;
+  }
+  .view-3 .textp h1 {
+    font-size: 1.5rem;
+  }
+  .view-3 .textp .containers1 .cont1 img,
+  .view-3 .textp .containers2 .cont1 img {
+    height: 50px;
+    width: 50px;
+  }
+  .footer .footer-container .footer-col {
+    min-width: 100%;
+    text-align: center;
+  }
+  .footer .footer-container .brand .brand-logo {
+    font-size: 1.5rem;
+  }
+  .login-form {
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  .login-form h2 {
+    font-size: 1.2rem;
+  }
+  .login-form input,
+  .login-form button {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
 }/*# sourceMappingURL=style.css.map */
