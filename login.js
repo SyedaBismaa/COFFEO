@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (nameval === storedUser && passValue === storedPass) {
       alert('Login Successful!');
-      window.location.href = 'index.html'; // ✅ redirect on success
+      window.location.href = 'main.html'; 
     } else {
       alert('Invalid Credentials. Please try again or signup.');
     }
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
     localStorage.setItem('password', passValue);
 
     alert('Signup Successful! Now you can login.');
-    // optionally: clear the fields
+  
     UsernameInput.value = '';
     passwordInput.value = '';
   });
