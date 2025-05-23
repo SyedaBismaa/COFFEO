@@ -77,7 +77,7 @@ body {
 }
 
 .view-1 {
-  height: 62vh;
+  height: 60vh;
   width: 90vw;
   margin: 2rem auto;
   padding: 1.5rem;
@@ -110,7 +110,8 @@ body {
 }
 .view-1 .text p {
   font-size: 1.05rem;
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
+  padding-bottom: 2rem;
   line-height: 1.6;
   color: #333;
 }
@@ -118,7 +119,7 @@ body {
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.7rem 1.5rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
   border-radius: 8px;
   background-color: #6f3a1b;
   color: #fff;
